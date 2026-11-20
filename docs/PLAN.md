@@ -27,7 +27,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 | 5.9 | Possessiv- & Demonstrativbegleiter (*mi, nuestro …*; *este, ese, aquel*) | GR | A1 | 5.4 | `possessives-demonstratives` | ✅ |
 | 5.10 | Fragen & Verneinung (Fragewörter, *qué/cuál*, *no … nada/nunca/nadie*) | GR | A1 | 5.2 | `questions-negation` | ✅ |
 | 5.11 | *ir a* + Infinitiv (+ *tener que, hay que, poder/querer* + Infinitiv) | ZM | A1 | 5.5, 5.6 | `ir-a-infinitive` | ✅ |
-| 5.12 | *estar* + Gerundio (inkl. *leyendo, durmiendo*) | ZM | A1 | 5.3, 5.6 | `estar-gerund` | ☐ |
+| 5.12 | *estar* + Gerundio (inkl. *leyendo, durmiendo*) | ZM | A1 | 5.3, 5.6 | `estar-gerund` | ✅ |
 | 5.13 | *ser* oder *estar*? | TF | A1 | 5.3 | `mistake-ser-estar` | ☐ |
 | 5.14 | Genus- & Numerus-Angleichung (*el problema, la gente es …*) | TF | A1 | 5.4 | `mistake-agreement` | ☐ |
 | 5.15 | Land, Nationalität, Sprache (*España – español*, Kleinschreibung) | TF | A1 | 5.4 | `mistake-country-nationality` | ☐ |
