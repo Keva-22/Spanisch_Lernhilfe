@@ -16,7 +16,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 
 | Nr. | Einheit (Inhalt) | Bereich | GERS | Voraussetzungen | ID | Status |
 |---|---|---|---|---|---|---|
-| 5.1 | Artikel & Nomen: Genus, Plural, *al/del* | GR | A1 | – | `articles-nouns` | ☐ |
+| 5.1 | Artikel & Nomen: Genus, Plural, *al/del* | GR | A1 | – | `articles-nouns` | ✅ |
 | 5.2 | Presente – regelmäßige Verben (-ar/-er/-ir), Subjektpronomen, *tú/usted* | ZM | A1 | – | `present-regular` | ☐ |
 | 5.3 | *ser*, *estar* & *hay* (inkl. Ortsangaben) | GR | A1 | 5.1, 5.2 | `ser-estar-hay` | ☐ |
 | 5.4 | Adjektive: Angleichung & Stellung (inkl. *buen, gran*) | GR | A1 | 5.1, 5.3 | `adjectives` | ☐ |
