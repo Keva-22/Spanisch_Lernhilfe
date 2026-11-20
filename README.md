@@ -22,7 +22,7 @@ npm run preview # gebaute Seite lokal ansehen
 
 ## Veröffentlichen (GitHub Pages)
 
-Einmalig in GitHub: Settings → Pages → Source „GitHub Actions“.
-Danach: Actions → „Deploy to GitHub Pages“ → Run workflow.
+Jeder Push auf `main` baut und veröffentlicht die Seite automatisch (GitHub Actions):
+https://keva-22.github.io/Spanisch_Lernhilfe/
 
 Mehr Details (Datenmodell, Regeln für neue Inhalte): siehe [CLAUDE.md](CLAUDE.md) und [docs/PLAN.md](docs/PLAN.md).

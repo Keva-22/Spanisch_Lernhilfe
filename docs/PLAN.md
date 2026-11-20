@@ -8,7 +8,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 - **Status:** ☐ offen · 🧪 Pilot (Phase 2) · ✅ fertig
 - **Ergänzung** = von mir vorgeschlagen, über den Auftrag hinaus – bei Bedarf streichen.
 - Sobald eigene Unterlagen in `materialien/` liegen, passe ich Reihenfolge, Schwerpunkte und Wortlisten daran an.
-- **Freigegeben (nach Phase 1):** Bau-Reihenfolge 5 → 6 → 7 · alle drei Extras · Push nach jeder Phase/Einheit (Deploy nur nach Freigabe).
+- **Freigegeben:** Bau-Reihenfolge 5 → 6 → 7 · alle drei Extras · Push nach jeder Phase/Einheit · Deploy automatisch bei jedem Push (nach Phase 2) · Pilot abgenommen.
 
 ## 1. Einheiten
 
@@ -38,7 +38,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 | Nr. | Einheit (Inhalt) | Bereich | GERS | Voraussetzungen | ID | Status |
 |---|---|---|---|---|---|---|
 | 6.1 | Pretérito perfecto & Partizip (*he hablado*; *hecho, dicho, visto …*) | ZM | A2 | 5.2, 5.5 | `present-perfect` | ☐ |
-| 6.2 | Pretérito indefinido (regelmäßig, unregelmäßig, Stammwechsel, Orthografie) | ZM | A2 | 5.5, 5.6 | `preterite` | 🧪 |
+| 6.2 | Pretérito indefinido (regelmäßig, unregelmäßig, Stammwechsel, Orthografie) | ZM | A2 | 5.5, 5.6 | `preterite` | ✅ |
 | 6.3 | Pretérito imperfecto | ZM | A2 | 6.2 | `imperfect` | ☐ |
 | 6.4 | Indefinido vs. Imperfecto vs. Perfecto (+ Entscheidungs-Checkliste) | ZM | A2/B1 | 6.1–6.3 | `past-tenses-contrast` | ☐ |
 | 6.5 | Objektpronomen direkt & indirekt (*lo/la/le, se lo*, Stellung, *conmigo*) | GR | A2 | 5.7, 5.8 | `object-pronouns` | ☐ |
@@ -79,7 +79,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 | W5.5 | Freizeit & Sport | 5 | A1 | 40 | 5.6, 5.8 | `free-time-sports` | ☐ |
 | W5.6 | Wohnen & Stadt | 5 | A1 | 40 | 5.3 | `home-town` | ☐ |
 | W5.7 | Essen & Trinken | 5 | A1 | 40 | 5.8, 5.11 | `food-drink` | ☐ |
-| W6.1 | Reisen & Tourismus (inkl. Wetter) | 6 | A2 | 50 | 6.2 | `travel-tourism` | 🧪 |
+| W6.1 | Reisen & Tourismus (inkl. Wetter) | 6 | A2 | 50 | 6.2 | `travel-tourism` | ✅ |
 | W6.2 | Medien & Technologie | 6 | A2 | 45 | 6.1 | `media-technology` | ☐ |
 | W6.3 | Einkaufen & Kleidung | 6 | A2 | 40 | 6.5, 6.6 | `shopping-clothes` | ☐ |
 | W6.4 | Körper & Gesundheit | 6 | A2 | 40 | 5.8, 6.9 | `body-health` | ☐ |
@@ -112,7 +112,7 @@ Schreibaufgaben der B1-Matura (lt. ÖSZ-Materialien zur SRDP: Artikel, Bericht, 
 
 | Nr. | Textsorte | Klasse | GERS | ID | Status |
 |---|---|---|---|---|---|
-| T1 | E-Mail (informell & halbformell) | 6 | A2/B1 | `email` | 🧪 |
+| T1 | E-Mail (informell & halbformell) | 6 | A2/B1 | `email` | ✅ |
 | T2 | Blogeintrag | 6 | A2/B1 | `blog-post` | ☐ |
 | T3 | Artikel | 7 | B1 | `article` | ☐ |
 | T4 | Bericht | 7 | B1 | `report` | ☐ |

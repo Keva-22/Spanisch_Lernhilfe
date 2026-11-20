@@ -1,9 +1,11 @@
 # Baut die Seite und veröffentlicht sie auf GitHub Pages.
-# Startet NUR manuell (Actions → „Deploy to GitHub Pages“ → Run workflow).
-# Vorher einmalig: Settings → Pages → Source: „GitHub Actions“.
+# Startet bei jedem Push auf main (freigegeben) oder manuell (Actions → Run workflow).
+# Voraussetzung: Settings → Pages → Source: „GitHub Actions“.
 name: Deploy to GitHub Pages
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

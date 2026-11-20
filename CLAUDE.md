@@ -12,8 +12,8 @@ Plan, Reihenfolge und Status aller Inhalte: **docs/PLAN.md** (dort Häkchen setz
   Lateinamerikanische Varianten höchstens als Hinweis.
 - Erlaubte Pakete: Vite-Template react-ts, `react-router-dom`, `vitest`. Alles andere → vorher fragen.
 - Kein Backend, Login, externe API, Tracking, UI- oder CSS-Framework. Code schlicht halten.
-- **Vorher fragen:** Dateien löschen, Datenmodell (`src/content/types.ts`) ändern, Deploy.
-  Push nach jeder Phase/Einheit ist freigegeben.
+- **Vorher fragen:** Dateien löschen, Datenmodell (`src/content/types.ts`) ändern.
+  Push nach jeder Phase/Einheit ist freigegeben; jeder Push auf `main` deployt automatisch (freigegeben).
 - Fehler nach 2 Versuchen nicht gelöst → stoppen und Problem beschreiben.
 - Commit nach jeder Einheit; Commit-Nachrichten auf Deutsch, kurz.
 
@@ -149,4 +149,6 @@ gespeicherte Fortschritt verloren. Vokabel-Fächer hängen an `fieldId|es|Richtu
 ## Deploy
 
 `vite.config.ts` nutzt `base: './'` (funktioniert mit HashRouter unabhängig vom Repo-Namen).
-Workflow `.github/workflows/deploy.yml` startet nur manuell. Deploy nur nach Freigabe durch den Nutzer.
+Workflow `.github/workflows/deploy.yml` baut, testet und veröffentlicht bei jedem Push auf `main`
+(vom Nutzer freigegeben). Seite: https://keva-22.github.io/Spanisch_Lernhilfe/
+Keine weiteren Pages-Workflows anlegen (z. B. Jekyll-Vorlagen) – sie würden die ungebaute Seite veröffentlichen.
