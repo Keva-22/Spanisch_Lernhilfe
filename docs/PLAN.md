@@ -18,7 +18,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 |---|---|---|---|---|---|---|
 | 5.1 | Artikel & Nomen: Genus, Plural, *al/del* | GR | A1 | – | `articles-nouns` | ✅ |
 | 5.2 | Presente – regelmäßige Verben (-ar/-er/-ir), Subjektpronomen, *tú/usted* | ZM | A1 | – | `present-regular` | ✅ |
-| 5.3 | *ser*, *estar* & *hay* (inkl. Ortsangaben) | GR | A1 | 5.1, 5.2 | `ser-estar-hay` | ☐ |
+| 5.3 | *ser*, *estar* & *hay* (inkl. Ortsangaben) | GR | A1 | 5.1, 5.2 | `ser-estar-hay` | ✅ |
 | 5.4 | Adjektive: Angleichung & Stellung (inkl. *buen, gran*) | GR | A1 | 5.1, 5.3 | `adjectives` | ☐ |
 | 5.5 | Presente – unregelmäßige Verben (*ir, tener, venir, decir*; *hago, pongo, salgo, conozco …*) | ZM | A1 | 5.2 | `present-irregular` | ☐ |
 | 5.6 | Presente – Stammwechsel (e→ie, o→ue, e→i, u→ue) | ZM | A1 | 5.2, 5.5 | `present-stem-change` | ☐ |
