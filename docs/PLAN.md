@@ -8,6 +8,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 - **Status:** ☐ offen · 🧪 Pilot (Phase 2) · ✅ fertig
 - **Ergänzung** = von mir vorgeschlagen, über den Auftrag hinaus – bei Bedarf streichen.
 - Sobald eigene Unterlagen in `materialien/` liegen, passe ich Reihenfolge, Schwerpunkte und Wortlisten daran an.
+- **Freigegeben (nach Phase 1):** Bau-Reihenfolge 5 → 6 → 7 · alle drei Extras · Push nach jeder Phase/Einheit (Deploy nur nach Freigabe).
 
 ## 1. Einheiten
 
@@ -101,6 +102,20 @@ Spanien-Wortschatz (*el ordenador, el móvil, el coche, el zumo, conducir*); lat
 | Typische Fehler | eigene Einheiten (TF, siehe oben), mit Übungen | 3 |
 | Mix-Test | zufällige Aufgaben aus gewählten Einheiten oder einer ganzen Klasse (10/20/30), Auswertung pro Einheit, „Falsche wiederholen" | 2 |
 | Fortschritt | localStorage: erledigte Übungen, Testergebnisse, Vokabel-Fächer; Übersicht pro Klasse; Zurücksetzen mit Bestätigung | 2 |
+| Extra: Vorlesen | 🔊-Button bei Beispielsätzen, Vokabeln, Karteikarten, Mustertexten | 2 |
+| Extra: Verb-Drill | zufällige Abfrage Verb × Zeit × Person aus den Verbtabellen | 2 |
+| Extra: Textsorten | Gerüst + E-Mail in Phase 2, restliche Textsorten in Phase 3 nach Klasse 7 | 2 / 3 |
+
+### Textsorten (Extra)
+
+Schreibaufgaben der B1-Matura (lt. ÖSZ-Materialien zur SRDP: Artikel, Bericht, Blog, E-Mail).
+
+| Nr. | Textsorte | Klasse | GERS | ID | Status |
+|---|---|---|---|---|---|
+| T1 | E-Mail (informell & halbformell) | 6 | A2/B1 | `email` | 🧪 |
+| T2 | Blogeintrag | 6 | A2/B1 | `blog-post` | ☐ |
+| T3 | Artikel | 7 | B1 | `article` | ☐ |
+| T4 | Bericht | 7 | B1 | `report` | ☐ |
 
 ## 4. Aufbau einer Einheit
 
@@ -184,6 +199,8 @@ interface Word {
 | `#/vocab/:id/type` | Tipp-Modus DE → ES |
 | `#/tenses` | Zeitenübersicht |
 | `#/verbs`, `#/verbs/:verb` | Verbtabellen |
+| `#/verb-drill` | Verb-Drill (Extra) |
+| `#/text-types`, `#/text-types/:id` | Textsorten & Redemittel (Extra) |
 | `#/mix` | Mix-Test |
 | `#/progress` | Fortschritt |
 
@@ -200,11 +217,11 @@ Pfade englisch (Code), alle sichtbaren Texte deutsch.
 ## 8. Ablauf
 
 - **Phase 2 – Gerüst + Pilot:** Projekt, Layout & Navigation (mobile first, Druck-CSS), alle Seiten aus Abschnitt 3 + 6, alle 7 Übungstypen, Vokabeltrainer, Fortschritt, Vitest-Tests, GitHub-Pages-Vorbereitung (`base: './'`, Deploy-Workflow nur manuell startbar), `CLAUDE.md`, `materialien/`. Pilot: **6.2 Pretérito indefinido + W6.1 Reisen & Tourismus**; dazu Daten für Zeitenübersicht und Verbtabellen.
-- **Phase 3 – Inhalte:** pro Klasse alle Einheiten in Nr.-Reihenfolge, danach die Wortfelder; je Einheit Gegenlesen, `npm test`, Commit, Häkchen hier. Stopp nach jeder Klasse.
+- **Phase 3 – Inhalte:** pro Klasse alle Einheiten in Nr.-Reihenfolge, danach die Wortfelder; je Einheit Gegenlesen, `npm test`, Commit, Häkchen hier. Stopp nach jeder Klasse. Nach Klasse 7: restliche Textsorten.
 - Commit nach jeder Phase und Einheit; Push und Deploy nur nach Freigabe.
 
-## 9. Extra-Ideen (nur nach Freigabe)
+## 9. Extras (alle drei freigegeben)
 
-1. **🔊 Vorlesen** (Browser-Sprachausgabe, lokale Stimme es-ES): Beispielsätze, Vokabeln und Karteikarten per Klick anhören – trainiert Aussprache und Hörverstehen ohne externen Dienst.
-2. **✍️ Textsorten & Redemittel:** Aufbau, Redemittel und ein Musterbeispiel für Matura-Textsorten (E-Mail, Blogeintrag, Artikel, Forumsbeitrag) – direkt nutzbar für Schularbeiten und die schriftliche Matura.
+1. **🔊 Vorlesen** (Browser-Sprachausgabe, bevorzugt lokale Stimme es-ES): Beispielsätze, Vokabeln und Karteikarten per Klick anhören – trainiert Aussprache und Hörverstehen; nutzt nur die eingebaute Sprachausgabe des Browsers, keine eigene externe API.
+2. **✍️ Textsorten & Redemittel:** Aufbau, Redemittel und ein Musterbeispiel für Matura-Textsorten (E-Mail, Blogeintrag, Artikel, Bericht) – direkt nutzbar für Schularbeiten und die schriftliche Matura.
 3. **🔁 Verb-Drill:** zufällige Abfrage „Verb × Zeit × Person" aus den Verbtabellen mit derselben Antwortprüfung – trainiert unregelmäßige Formen gezielt in kurzen Runden.
