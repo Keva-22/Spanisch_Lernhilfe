@@ -72,7 +72,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 
 | Nr. | Wortfeld | Klasse | GERS | ≈ Wörter | passt zu | ID | Status |
 |---|---|---|---|---|---|---|---|
-| W5.1 | Erste Kontakte: Begrüßung, Länder & Sprachen | 5 | A1 | 40 | 5.2, 5.15 | `first-contacts` | ☐ |
+| W5.1 | Erste Kontakte: Begrüßung, Länder & Sprachen | 5 | A1 | 40 | 5.2, 5.15 | `first-contacts` | ✅ |
 | W5.2 | Familie, Aussehen & Charakter | 5 | A1 | 40 | 5.4, 5.9 | `family-people` | ☐ |
 | W5.3 | Zahlen, Datum & Uhrzeit | 5 | A1 | 40 | 5.3 | `numbers-time` | ☐ |
 | W5.4 | Schule & Tagesablauf | 5 | A1 | 40 | 5.7 | `school-routine` | ☐ |
