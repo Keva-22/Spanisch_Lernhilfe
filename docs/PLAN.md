@@ -25,7 +25,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 | 5.7 | Reflexive Verben & Tagesablauf | GR | A1 | 5.2, 5.6 | `reflexive-verbs` | ✅ |
 | 5.8 | *gustar* & Co. (*encantar, interesar, doler, parecer*; *también/tampoco*) | GR | A1 | 5.1, 5.2 | `gustar` | ✅ |
 | 5.9 | Possessiv- & Demonstrativbegleiter (*mi, nuestro …*; *este, ese, aquel*) | GR | A1 | 5.4 | `possessives-demonstratives` | ✅ |
-| 5.10 | Fragen & Verneinung (Fragewörter, *qué/cuál*, *no … nada/nunca/nadie*) | GR | A1 | 5.2 | `questions-negation` | ☐ |
+| 5.10 | Fragen & Verneinung (Fragewörter, *qué/cuál*, *no … nada/nunca/nadie*) | GR | A1 | 5.2 | `questions-negation` | ✅ |
 | 5.11 | *ir a* + Infinitiv (+ *tener que, hay que, poder/querer* + Infinitiv) | ZM | A1 | 5.5, 5.6 | `ir-a-infinitive` | ☐ |
 | 5.12 | *estar* + Gerundio (inkl. *leyendo, durmiendo*) | ZM | A1 | 5.3, 5.6 | `estar-gerund` | ☐ |
 | 5.13 | *ser* oder *estar*? | TF | A1 | 5.3 | `mistake-ser-estar` | ☐ |
