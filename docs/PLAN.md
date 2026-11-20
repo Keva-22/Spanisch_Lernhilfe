@@ -31,7 +31,7 @@ Statische Lern-Website (Vite + React + TypeScript) für Spanisch an der AHS-Ober
 | 5.13 | *ser* oder *estar*? | TF | A1 | 5.3 | `mistake-ser-estar` | ✅ |
 | 5.14 | Genus- & Numerus-Angleichung (*el problema, la gente es …*) | TF | A1 | 5.4 | `mistake-agreement` | ✅ |
 | 5.15 | Land, Nationalität, Sprache (*España – español*, Kleinschreibung) | TF | A1 | 5.4 | `mistake-country-nationality` | ✅ |
-| 5.16 | Akzente richtig setzen (*él/el, tú/tu, qué/que, canción – canciones*) – **Ergänzung** | TF | A1 | 5.2 | `mistake-accents` | ☐ |
+| 5.16 | Akzente richtig setzen (*él/el, tú/tu, qué/que, canción – canciones*) – **Ergänzung** | TF | A1 | 5.2 | `mistake-accents` | ✅ |
 
 ### 6. Klasse – A2
 
